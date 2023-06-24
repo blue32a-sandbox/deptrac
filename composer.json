@@ -8,5 +8,10 @@
         }
     },
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "qossmic/deptrac-shim": "^1.0"
+    },
+    "scripts": {
+        "analyse": "php vendor/bin/deptrac analyse"
+    }
 }

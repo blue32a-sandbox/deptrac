@@ -5,6 +5,7 @@ RUN apt-get update \
         git \
         zip \
         unzip \
+        graphviz \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
