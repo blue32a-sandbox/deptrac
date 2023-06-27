@@ -12,6 +12,7 @@
         "qossmic/deptrac-shim": "^1.0"
     },
     "scripts": {
-        "analyse": "php vendor/bin/deptrac analyse"
+        "analyse": "php vendor/bin/deptrac analyse",
+        "analyse:img": "@analyse -f graphviz-image -o ./graph.png"
     }
 }
